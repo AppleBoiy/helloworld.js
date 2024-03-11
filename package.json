@@ -1,5 +1,5 @@
 {
-  "name": "helloworld",
+  "name": "helloworld.js",
   "version": "1.0.0",
   "description": "a hello world program written in javascript",
   "main": "index.js",
