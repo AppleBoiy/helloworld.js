@@ -1,6 +1,6 @@
 # helloworld.js
 
-a hello world program written in javascript
+a hello world program written in JavaScript
 
 ## Introduction
 
