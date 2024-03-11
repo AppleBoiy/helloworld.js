@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ncc build index.js -o build",
-    "package": "pkg . -t macos-arm64 --output dist/helloworld"
+    "package": "pkg . -t macos-arm64 --output dist/helloworld",
+    "tar": "tar -czvf ./dist/helloworld.tar.gz dist/helloworld"
   },
   "keywords": [],
   "author": "AppleBoiy",
