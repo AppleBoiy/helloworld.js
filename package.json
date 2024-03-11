@@ -4,9 +4,22 @@
   "description": "a hello world program written in javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js -o build",
+    "package": "pkg . -t macos-arm64 --output dist/helloworld"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "AppleBoiy",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/ncc": "^0.38.1",
+    "@yao-pkg/pkg": "^5.11.4",
+    "pkg": "^5.8.1"
+  },
+  "bin": {
+    "helloworld": "./build/index.js"
+  },
+  "pkg": {
+    "scripts": "build/**/*.js"
+  }
 }
