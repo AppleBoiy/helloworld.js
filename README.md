@@ -1,4 +1,4 @@
-# helloworld.js
+# helloworld.js <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png" width=100 alt="Node.js logo" align="right">
 
 a hello world program written in JavaScript
 
